@@ -4,6 +4,8 @@ This project is using [Angular CLI](https://github.com/angular/angular-cli) vers
 .NET 5
 MS SQL Server 
 
+Here you have a little demo: https://youtu.be/N1hRXa3aoJw
+
 To run this project properly, you'll need a database "PruebaSD", with a "Usuario" table
 you can follow the user.sql script to generate this table and populate with some data
 
