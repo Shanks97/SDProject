@@ -203,6 +203,29 @@
             "rid": "win"
           }
         }
+      },
+      "UserProject.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "UserProject.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserProject.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserProject.Business.dll": {}
+        }
+      },
+      "UserProject.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/UserProject.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserProject.Entities.dll": {}
+        }
       }
     }
   },
@@ -576,13 +599,25 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "UserProject.Business/1.0.0": {
+      "type": "project",
+      "path": "../User.Business/UserProject.Business.csproj",
+      "msbuildProject": "../User.Business/UserProject.Business.csproj"
+    },
+    "UserProject.Entities/1.0.0": {
+      "type": "project",
+      "path": "../User.Entities/UserProject.Entities.csproj",
+      "msbuildProject": "../User.Entities/UserProject.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.1",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.1",
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "UserProject.Business >= 1.0.0",
+      "UserProject.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -615,7 +650,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\admin\\Documents\\Angular\\SDProject\\src\\User.Business\\UserProject.Business.csproj": {
+              "projectPath": "C:\\Users\\admin\\Documents\\Angular\\SDProject\\src\\User.Business\\UserProject.Business.csproj"
+            },
+            "C:\\Users\\admin\\Documents\\Angular\\SDProject\\src\\User.Entities\\UserProject.Entities.csproj": {
+              "projectPath": "C:\\Users\\admin\\Documents\\Angular\\SDProject\\src\\User.Entities\\UserProject.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
