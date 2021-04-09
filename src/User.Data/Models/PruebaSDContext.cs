@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using UserProject.Entities;
@@ -35,13 +35,9 @@ namespace UserProject.Data.Models
 
             modelBuilder.Entity<Usuario>(entity =>
             {
-                entity.HasKey(e => e.UsuId);
+                entity.HasKey(e => e.Apellido);
 
                 entity.ToTable("Usuario");
-
-                entity.Property(e => e.UsuId)
-                    .HasColumnType("numeric(18, 0)")
-                    .HasColumnName("usuID");
 
                 entity.Property(e => e.Apellido)
                     .HasMaxLength(100)
@@ -52,6 +48,11 @@ namespace UserProject.Data.Models
                     .HasMaxLength(100)
                     .IsUnicode(false)
                     .HasColumnName("nombre");
+
+                entity.Property(e => e.UsuId)
+                    .HasColumnType("numeric(18, 0)")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnName("usuID");
             });
 
             OnModelCreatingPartial(modelBuilder);

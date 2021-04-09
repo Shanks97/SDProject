@@ -1,6 +1,8 @@
 import {AfterViewInit, Component, ViewChild} from '@angular/core';
 import {MatSort} from '@angular/material/sort';
 import {MatTableDataSource} from '@angular/material/table';
+import { User } from 'src/app/classes/user';
+import { UserService } from 'src/app/services/user.service';
 
 export interface PeriodicElement {
  usuId: number;
@@ -8,11 +10,6 @@ export interface PeriodicElement {
  lastName: string;
 }
 
-const ELEMENT_DATA: PeriodicElement[] = [
-{usuId: 1, name: 'Juan', lastName: 'Cortés'},
-{usuId: 2, name: 'Gabo', lastName: 'Arias'},
-{usuId: 3, name: 'Nicolas', lastName: 'Perez'},
-];
 
 
 @Component({
@@ -21,17 +18,24 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./users.component.css']
 })
 export class UsersComponent implements AfterViewInit {
-  displayedColumns: string[] = ['usuId', 'name'];
+  displayedColumns: string[] = ['usuId', 'nombre'];
   dataSource = new MatTableDataSource([]);
 
   @ViewChild(MatSort) sort: MatSort;
 
+  constructor(private userService: UserService){
+    
+  }
+
   ngAfterViewInit() {
-    this.dataSource.data = ELEMENT_DATA
-    this.dataSource.sort = this.sort;
+    this.search();
   }
 
   search(){
-    console.log('aaaa');
+    this.dataSource.data = [];
+    this.userService.getUsers().subscribe(data =>{
+      this.dataSource.data = data;
+      this.dataSource.sort = this.sort;
+    });
   }
 }
