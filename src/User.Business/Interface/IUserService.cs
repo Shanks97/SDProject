@@ -7,6 +7,6 @@ namespace UserProject.Business.Interface
 {
   public interface IUserService
   {
-    IEnumerable<User> GetUsers();
+    IEnumerable<Usuario> GetUsers();
   }
 }

@@ -1,19 +1,24 @@
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using UserProject.Business.Interface;
+using UserProject.Data;
+using UserProject.Data.Models;
 using UserProject.Entities;
 
 namespace UserProject.Business
 {
   public class UserService : IUserService
   {
-    public UserService()
-    {
+    private PruebaSDContext _pruebaSdDbContext;
 
+    public UserService(PruebaSDContext pruebaSdDbContext)
+    {
+      _pruebaSdDbContext = pruebaSdDbContext;
     }
 
-    public IEnumerable<User> GetUsers()
+    public IEnumerable<Usuario> GetUsers()
     {
-      throw new System.NotImplementedException();
+      return _pruebaSdDbContext.Usuarios.AsNoTracking();
     }
   }
 }

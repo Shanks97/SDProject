@@ -23,7 +23,7 @@ namespace UserAPI.Controllers
     }
 
     [HttpGet]
-    public IEnumerable<User> Get()
+    public IEnumerable<Usuario> Get()
     {
       return _userService.GetUsers();
     }

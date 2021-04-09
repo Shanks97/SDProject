@@ -1,8 +1,8 @@
 namespace UserProject.Entities
 {
-  public class User
+  public class Usuario
   {
-    public int UsuId { get; set; }
+    public decimal UsuId { get; set; }
     public string Nombre { get; set; }
     public string Apellido { get; set; }
   }

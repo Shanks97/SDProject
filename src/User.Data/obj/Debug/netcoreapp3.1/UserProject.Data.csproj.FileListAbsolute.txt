@@ -1,0 +1,15 @@
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\bin\Debug\netcoreapp3.1\UserProject.Entities.dll
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\obj\Debug\netcoreapp3.1\UserProject.Data.csprojAssemblyReference.cache
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\obj\Debug\netcoreapp3.1\UserProject.Data.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\obj\Debug\netcoreapp3.1\UserProject.Data.AssemblyInfo.cs
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\bin\Debug\netcoreapp3.1\UserProject.Data.deps.json
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\bin\Debug\netcoreapp3.1\UserProject.Data.runtimeconfig.json
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\bin\Debug\netcoreapp3.1\UserProject.Data.runtimeconfig.dev.json
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\bin\Debug\netcoreapp3.1\UserProject.Data.dll
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\bin\Debug\netcoreapp3.1\UserProject.Data.pdb
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\bin\Debug\netcoreapp3.1\UserProject.Entities.pdb
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\obj\Debug\netcoreapp3.1\UserProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\obj\Debug\netcoreapp3.1\UserProject.Data.csproj.CopyComplete
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\obj\Debug\netcoreapp3.1\UserProject.Data.dll
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\obj\Debug\netcoreapp3.1\UserProject.Data.pdb
+C:\Users\admin\Documents\Angular\SDProject\src\User.Data\obj\Debug\netcoreapp3.1\UserProject.Data.genruntimeconfig.cache

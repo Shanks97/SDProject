@@ -6,6 +6,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using UserProject.Business;
 using UserProject.Business.Interface;
+using UserProject.Data;
+using UserProject.Data.Models;
 
 namespace UserAPI
 {
@@ -26,6 +28,7 @@ namespace UserAPI
       {
         c.SwaggerDoc("v1", new OpenApiInfo { Title = "UserAPI", Version = "v1" });
       });
+      services.AddDbContext<PruebaSDContext>();
       services.AddScoped<IUserService, UserService>();
     }
 

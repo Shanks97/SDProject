@@ -1,0 +1,14 @@
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\bin\Debug\netcoreapp3.1\UserProject.Business.deps.json
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\bin\Debug\netcoreapp3.1\UserProject.Business.dll
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\bin\Debug\netcoreapp3.1\UserProject.Business.pdb
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\bin\Debug\netcoreapp3.1\UserProject.Entities.dll
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\bin\Debug\netcoreapp3.1\UserProject.Entities.pdb
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\obj\Debug\netcoreapp3.1\UserProject.Business.csprojAssemblyReference.cache
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\obj\Debug\netcoreapp3.1\UserProject.Business.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\obj\Debug\netcoreapp3.1\UserProject.Business.AssemblyInfo.cs
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\obj\Debug\netcoreapp3.1\UserProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\obj\Debug\netcoreapp3.1\UserProject.Business.csproj.CopyComplete
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\obj\Debug\netcoreapp3.1\UserProject.Business.dll
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\obj\Debug\netcoreapp3.1\UserProject.Business.pdb
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\bin\Debug\netcoreapp3.1\UserProject.Data.dll
+C:\Users\admin\Documents\Angular\SDProject\src\User.Business\bin\Debug\netcoreapp3.1\UserProject.Data.pdb
