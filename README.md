@@ -7,4 +7,5 @@ MS SQL Server
 To run this project properly, you'll need a database "PruebaSD", with a "Usuario" table
 you can follow the user.sql script to generate this table and populate with some data
 
-Finally, you can execute run batch file to run front and back batch files in order to start Frond-end and Back-end services
+Finally, you can execute "run.bat" batch file to run "front.bat" and "back.bat" 
+in order to start Frond-end and Back-end services
